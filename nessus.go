@@ -67,9 +67,9 @@ type ReportItem struct {
 	MetasploitName             string   `xml:"metasploit_name,name"`
 	CanvasPackage              string   `xml:"canvas_package,name"`
 	CoreName                   string   `xml:"core_name,name"`
-	CVSSVector                 string   `xml:"cvss_vector,name"`
+	CVSSVector                 string   `xml:"cvss3_vector,name"`
 	CVSSBaseScore              float64  `xml:"cvss3_base_score,name"`
-	CVSSTemporalScore          string   `xml:"cvss_temporal_score,name"`
+	CVSSTemporalScore          string   `xml:"cvss3_temporal_score,name"`
 	Compliance                 bool     `xml:"compliance,name"`
 	ComplianceCheckName        string   `xml:"compliance-check-name,name"`
 	ComplianceAuditFile        string   `xml:"compliance-audit-file,name"`
